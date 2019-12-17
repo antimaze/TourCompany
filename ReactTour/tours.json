@@ -1,0 +1,27 @@
+{
+  "virtualTours": [
+    {
+      "name": "Weekend Getaways",
+      "date": "Jun 1, 2020"
+    },
+    {
+      "name": "Sunset Vacations",
+      "date": "Feb 1, 2020"
+    },
+    {
+      "name": "Wonders Tour",
+      "date": "Mar 1, 2020"
+    }],
+    "physicalTours": [{
+      "name": "Pheonix Tour",
+      "date": "Apr 1, 2020"
+    },
+    {
+      "name": "Far Far Away Tour",
+      "date": "May 1, 2020"
+    },
+    {
+      "name": "Wonders Tour",
+      "date": "Aug 1, 2020 to Dec 1, 2020"
+    }]
+}

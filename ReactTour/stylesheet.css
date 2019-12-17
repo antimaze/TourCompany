@@ -1,0 +1,149 @@
+a:hover{
+  cursor: pointer;
+}
+
+.ulist {
+  list-style-type: none;
+  font-style: italic;
+  width: 100%;
+  text-align: center;
+  padding-left: 0px;
+}
+
+.listItem {
+	background-color: blue;
+    text-align: center;
+    display: inline;
+    padding: 5px 40px 5px 40px;
+    margin: 2px;
+}
+
+.anchor {
+	color: white;
+	text-decoration: none;
+}
+
+.logo {
+	font-family: fantasy;
+    font-size: larger;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 15%;
+    text-align: center;
+}
+
+.main{
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+	margin-top: 50px;
+}
+
+.nav {
+    background-color: white;
+    max-width: 1000px;
+}
+
+.body{
+	background-color: black;
+}
+
+.navigation{
+  display: flex;
+  justify-content: center;
+}
+
+.navigationBar{
+
+  background-color: white;
+    width: 1000px;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    top: 0;
+}
+
+.header{
+	margin-left: 10px;
+  margin-right: 10px;
+}
+
+.section{
+	margin-left: 10px;
+  margin-right: 10px;
+}
+
+.menu{
+	display: inline-block;
+      width: 85%;
+}
+
+.navgrid
+{
+	display: grid;
+	grid-template-columns: auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: #F0F8FF;
+}
+.grid-item {
+  padding: 10px;
+  text-align: center;
+  background-color: #F0F8FF;
+}
+
+.backgroundColor
+{
+	background-color: #F0F8FF;
+}
+
+.rightAlign
+{
+	text-align: right;
+}
+
+.leftAlign
+{
+	text-align: left;
+}
+
+.textinputlength
+{
+	width: 280px;
+}
+
+.signupbutton
+{
+	width: 300px;
+}
+
+.item1
+{
+	grid-column: 1 / 2;
+}
+
+.tourTable
+{
+  border-collapse: collapse;
+  border: 2px solid black;
+}
+
+td, th {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.dropDownAddTour{
+  border: 1px solid green;
+  background-color: #8FBC8F;
+  width: 150px;
+  text-align: center;
+}
+
+.dropDownAddTour:hover{
+  cursor: pointer;
+}

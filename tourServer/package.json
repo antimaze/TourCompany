@@ -1,0 +1,32 @@
+{
+  "name": "tourServer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node tourServer",
+    "dev": "nodemon tourServer",
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "nedb-promise": "^2.0.1",
+    "nedb-promises": "^4.0.0",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7",
+    "supertest": "^4.0.2"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.2",
+    "nodemon": "^1.19.4"
+  }
+}

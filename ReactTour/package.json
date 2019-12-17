@@ -1,0 +1,28 @@
+{
+  "name": "ReactTour",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "admin": "^1.4.1",
+    "http-proxy-middleware": "^0.20.0",
+    "parcel-bundler": "^1.12.4",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "request-promise-native": "^1.0.7"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10"
+  },
+  "scripts": {
+    "build": "C:/Users/Savan/AppData/Roaming/npm/parcel build index.html --public-url ./",
+    "dev": "C:/Users/Savan/AppData/Roaming/npm/parcel index.html",
+    "start": "node proxyServer",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
